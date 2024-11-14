@@ -99,7 +99,6 @@ class TimerService : Service() {
                 paused = false
             }
         }
-
     }
 
     override fun onUnbind(intent: Intent?): Boolean {
@@ -115,6 +114,7 @@ class TimerService : Service() {
 
         Log.d("TimerService status", "Destroyed")
     }
-
-
 }
+
+//start and pause button, when you click start, it has to turn to pause
+//timer be displayed, recieve communication with the service
